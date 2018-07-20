@@ -1,4 +1,5 @@
-﻿using System;
+﻿using InternAssignmentv2.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,8 +9,12 @@ namespace InternAssignmentv2.Controllers
 {
     public class HomeController : Controller
     {
+       
+
         public ActionResult Index()
         {
+            
+
             return View();
         }
 
@@ -26,5 +31,7 @@ namespace InternAssignmentv2.Controllers
 
             return View();
         }
+
+       
     }
 }
